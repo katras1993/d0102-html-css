@@ -1,0 +1,70 @@
+body{
+      font-family: sans-serif;
+      margin: 0;
+}
+
+header{
+    background-color: blue;
+    
+}
+
+nav a{
+    color: aquamarine;
+    text-decoration: none;
+
+}
+
+.cor-vermelha{
+    color: red;
+}
+
+#header-pesquisa{
+    color: green;
+}
+
+#header-pesquisa::placeholder{
+    color: blueviolet;
+}
+
+textarea{
+    resize: none;
+}
+
+.formulario-contato p, .formulario-contato h3{
+    font-size: 18pt;
+}
+
+.negrito{
+    font-weight: bold;
+
+}
+
+.negrito:hover{
+    color: brown;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

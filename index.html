@@ -13,35 +13,41 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="cor-vermelha nav-header">
             <a href="#">Home</a>
             <a href="#">Sobre</a>
-            <a href="#">Nossos projetos</a>
+            <a href="#">Projetos</a>
             <a href="#">Contato</a>
         </nav>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum minima nesciunt incidunt animi
-            consequatur natus labore, aspernatur inventore dolor dolore harum corrupti rem facere similique, laudantium
-            veritatis blanditiis quibusdam laborum.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam explicabo itaque nemo fuga repudiandae
-            consectetur odio fugiat maxime. Eum ipsa voluptatum impedit modi sequi perspiciatis deleniti numquam quia
-            pariatur dolores.
-        </p>
+
+        <input type="text" placeholder="Digite sua pesquisa" id="header-pesquisa">
 
     </header>
 
-    <section>
+    <a href="#" class="cor-vermelha">ANCORA</a>
+
+    <p class="negrito">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum minima nesciunt incidunt animi
+        consequatur natus labore, aspernatur inventore dolor dolore harum corrupti rem facere similique, laudantium
+        veritatis blanditiis quibusdam laborum.
+    </p>
+    <p class="negrito">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam explicabo itaque nemo fuga repudiandae
+        consectetur odio fugiat maxime. Eum ipsa voluptatum impedit modi sequi perspiciatis deleniti numquam quia
+        pariatur dolores.
+    </p>
+
+    <section class="formulario-contato">
+        <h3>Formulário contato</h3>
         <p> Entre em contato conosco para pedir cotações de serviços.</p>
 
-        <input type="text" placeholder="Nome completo">
+        <input type="text" placeholder="Nome completo" maxlength="11">
         <input type="email" placeholder="Email">
         <input type="tel" placeholder="(xx)xxxxx-xxxx">
         <input type="password" placeholder="Digite sua senha">
         <input type="number" placeholder="Digite seu CPF">
         <input type="date">
-        <textarea name="" id="" cols="30" rows="10"></textarea>        
+        <textarea name="" id="" cols="30" rows="10"></textarea>
         <button>Enviar</button>
     </section>
 
